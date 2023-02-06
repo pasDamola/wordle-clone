@@ -10,13 +10,9 @@ const answer = sample(WORDS);
 // To make debugging easier, we'll log the solution in the console.
 console.info({ answer });
 
-function Cell({ key, letter, status }) {
+function Cell({ letter, status }) {
   const cellStyle = status ? `cell ${status}` : "cell";
-  return (
-    <span key={key} className={cellStyle}>
-      {letter}
-    </span>
-  );
+  return <span className={cellStyle}>{letter}</span>;
 }
 
 function Guess({ value }) {
