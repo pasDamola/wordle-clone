@@ -16,6 +16,7 @@ function Game() {
     setGuesses([...guesses, guess]);
     setGuess("");
   };
+
   return (
     <>
       <GuessResults guesses={guesses} />
