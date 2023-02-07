@@ -185,6 +185,14 @@ h1 {
   color: white;
 }
 
+.cancel {
+  position: relative;
+  top: -54px;
+  right: -287px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 .visually-hidden {
   position: absolute;
   overflow: hidden;
